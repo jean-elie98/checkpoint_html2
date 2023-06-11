@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+/*mettre tous sur la meme ligne
+.menu li{
+    float: right;
+}
+*/
+.container{
+    width: 1200px;
+}
+/*Début menu barre de navigation*/
+.barre{
+    background-color: black;
+    width: 1470px;
+    height: 300;
+    padding: 15px;
+    color: white;
+   
+}
+/*Début mettre le logo, la recherche et ul, li sur la même ligne*/
+.logo{float: left;
+margin-right: 15px;
+}
+
+#seach {
+    float: right;
+    size: 10px;
+    margin: 10px;
+}
+
+ul li{
+    display: inline;
+}
+/*Fin mettre le logo, la recherche et ul, li sur la même ligne*/
+
+a{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+/*Fin menu barre de navigation*/
+
+/*body*/
+
+div{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.type {
+  height: 300px;
+  width: 300px;
+  background: rgb(1, 204, 255);
+  color: rgb(0, 0, 0);
+  margin-right: 15px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    width: 1470px;
+    height: 50px;
+    font-size: larger;
+}
